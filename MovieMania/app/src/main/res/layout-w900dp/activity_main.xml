@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="16dp"
+              android:layout_marginRight="16dp"
+              android:baselineAligned="false"
+              android:divider="?android:attr/dividerHorizontal"
+              android:orientation="horizontal"
+              android:showDividers="middle"
+              android:weightSum="1"
+              tools:context=".view.MainActivity">
+
+    <!--
+    This layout is a two-pane layout for the Items
+    master/detail flow.
+    
+    -->
+
+    <fragment
+            class="com.example.moviemania.view.MovieListFragment"
+            android:id="@+id/list_fragment"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.3" />
+    <fragment
+            class="com.example.moviemania.view.DescriptionFragment"
+            android:id="@+id/detail_fragment"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.7" />
+
+</LinearLayout>

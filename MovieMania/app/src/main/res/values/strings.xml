@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovieMania</string>
+    <string name="action_settings">Settings</string>
+    <string name="movie_list_title">Popular Movie List</string>
+    <string name="description_screen_title">Movie Details</string>
+    <string name="network_error">Error While loading Movie Data</string>
+
+    <string name="title">Title</string>
+    <string name="releasedate">Release Data</string>
+    <string name="runtime">RunTime</string>
+    <string name="overview">Overview</string>
+    <string name="score">Popularity</string>
+    <string name="geners">Geners</string>
+
+
+    <string name="progress_movie_list">Loading Movies...</string>
+    <string name="progress_movie_data">Loading Movie Data...</string>
+</resources>
